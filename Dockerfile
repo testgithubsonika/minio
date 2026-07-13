@@ -1,3 +1,5 @@
+
+
 FROM minio/minio
 
-CMD ["server", "/data", "--console-address", ":9001"]
+CMD ["server", "/data", "--address", ":10000", "--console-address", ":10001"]
